@@ -1,0 +1,12 @@
+<script>
+  // Disable right-click
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
+  // Try to block DevTools
+  setInterval(() => {
+    if (window.outerWidth - window.innerWidth > 100 || window.outerHeight - window.innerHeight > 100) {
+      document.body.innerHTML = '<h1>DevTools Detected. Closing Page.</h1>';
+      window.location.reload();
+    }
+  }, 1000);
+</script>

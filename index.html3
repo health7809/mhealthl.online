@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="google-site-verification" content="mpcpy_Le3wlhNJ_ZT7FwP3EBxqSdwQCy86bTMoKiOsA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Health Universe Funnel</title>
+  <link rel="stylesheet" href="funnel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      text-align: center;
+    }
+    h1, h2, h3, p {
+      text-align: center;
+    }
+    .category-card {
+      text-align: center;
+    }
+  </style>
+
+  
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6NXBS2135Y');
+</script>
+</head>
+
+
+<div class="navbar"></div>
+  <title>Dropdown Menu</title>
+  <style>
+       body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #0bd8c7;
+      padding: 10px 20px;
+    }
+
+    .navbar .logo {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Dropdown Container */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: #415044;
+      color: white;
+      padding: 10px 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropbtn:hover {
+      background-color: #444;
+    }
+
+    /* Dropdown Content */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      right: 0;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 30px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    /* Show dropdown on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+</div>
+</div>
+<body>
+ <div class="navbar">
+    </div>
+    
+    
+<body>
+  <div class="navbar">
+    <img src="logo for healthuniverse, healthmatterslife,hshub.net,taolife.co.uk,dhgpro.co.uk (1).jpg" style= height: 50px style= width: 10px >
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        
+    
+    <a href="ContactUs.html" target="_blank" class="link-btn">Contact</a>
+    <a href="AboutUs.html" target="_blank" class="link-btn">About</a>
+    <a href="Blog.html" target="_blank" class="link-btn">Blog</a>
+        </div>
+       
+      </div>
+    </div>
+  
+<br></br>
+  </div>
+</body>
+</html>
+
+
+
+ <!-- Hero Section -->
+  <section class="hero">
+    
+    <img src="flx20250224144303-67bc857783907 (2).png"  class="logo" width="35px" style=width: 50px; height: auto;">
+
+   <h1 style="font-size: 48px; color: rgb(22, 88, 97); text-align: center;">Your Journey to Complete Wellness Starts Here</h1>
+    <p>Join HealthUniverse for holistic health insights and curated wellness solutions.</p>
+    <a href="#categories" class="btn"></a>
+  </section>
+
+ <a href="https://apple.hshub.net" target="_blank" rel="noopener noreferrer">
+      <img src="Untitled design (9).png "class=" width="45px" style= width: "40px" margin:  auto; height: auto; display">   
+
+
+     <a href="https://gut.hshub.net" target="_blank" rel="noopener noreferrer">
+      <img src="https://drinking water.jpg" ="_blank" rel="noopener noreferrer" alt="" class="" style= width:"45px" style=margin: 10 auto; display;">
+      
+  <!-- Problem & Solution -->
+  <section class="problem">
+    <h2 style=font-size: "35px"; text-align: center;">Struggling to Keep Your Health in Check?</h2>
+    <p>Our experts and partner platforms bring you proven solutions for energy, immunity, weight, and more.</p>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="categories">
+    <div class="category-card">
+      <img src="superfoods1.jpg" alt="superfoods" class="image" style=width:"40px" "style=width auto margin: 10 auto; display;">
+
+     
+      <h2 style="font-size: "35px"; text-align center;">Health & Exercise</h2>
+     <div class="text">
+      <p div class="text">Superfoods and exercise work hand in hand to support a healthy lifestyle. Superfoods like berries, leafy greens, nuts, and fatty fish are rich in essential nutrients, antioxidants, and healthy fats that help fuel the body and support recovery after physical activity. When combined with regular exercise, 
+        these nutrient-dense foods can enhance energy levels, improve heart health, and boost the immune system. Whether you're engaging in cardio, strength training, or yoga, incorporating superfoods into your diet helps your body perform better and recover faster, making it easier to stay consistent with your fitness goals.
+      </p>
+      </div>
+
+     <a href="https://www.berry.hshub.net" target="_blank" rel="noopener noreferrer">
+      <img src="exercise_calestenics.jpg" alt= "class="img" width="45px" style="margin: 10 auto; display;">
+  
+    <div class="9743">
+      
+      <a href="https://www.liv25.hshub.net" target="_blank" rel="noopener noreferrer">
+      <img src="person with healthy liver (1).jpg" alt="" class="img" width="45px" style="margin: 10 auto; display;">
+      
+      <h3 style="font-size: 40px; text-align: center;"
+       <a href="https://www.buzz.hshub.net" target="_blank" class="link-btn">Sugar</a></h3>
+      
+      <p div class="text"Liver health is essential for overall well-being, as the liver plays a key role in detoxifying the body, processing nutrients, and supporting metabolism. 
+        Maintaining a healthy liver helps ensure that harmful toxins are efficiently removed from the bloodstream. Liver supplements, such as milk thistle, dandelion root, and turmeric, 
+        are often used to support liver function and protect liver cells from damage. These natural supplements may help reduce inflammation, promote regeneration of liver tissue, and 
+        improve bile production, which aids digestion. When combined with a balanced diet and healthy lifestyle, liver supplements can contribute to improved energy, clearer skin, and better digestion.
+      </p>
+
+      
+    
+
+
+    <div class="category-card">
+      <img src="flx20250216120002-67b1d34234679 (2).png" alt="Weight Loss" class="img"style-width="100px" style="margin: 0 auto; display: block;">
+      <h3 style= "width: 70px; height: auto;"font-size: 30px; text-align: center;" class="link-btn"></h3>
+      <div class="text">
+        
+      <p div class= Weight loss supplements are popular tools for individuals looking to support their weight management goals. 
+        These products often contain ingredients like green tea extract, caffeine, or fiber that can help boost metabolism, suppress appetite, or enhance fat burning. 
+        While some supplements may offer real benefits when used alongside a healthy diet and regular exercise, it’s important to approach them with due diligence.   
+        Reach your ideal body weight with scientifically backed methods.</p>
+      
+        <a href="https://www.buzz.hshub.net" font-size= target="_blank" class="link-btn"></a>
+        <img src="honeybuzz.png" alt="" style="width: 100px; height: auto;">
+    </div>
+       
+    <div class="category-card">
+      
+      <a href="https://7plu.hshub.net" target="_blank" rel="noopener noreferrer" width 35px"" target="_blank" rel="noopener noreferrer">
+      <img src="Muscle Health Visualization.jpg" alt=" "style="width: 100px; height: auto;">
+      
+
+      <p div class="text">  Tonic health refers to the use of natural tonics—such as herbal drinks, elixirs, or concentrated nutrients—to support and maintain overall wellness. 
+        These tonics are often crafted with ingredients like ginger, turmeric, apple cider vinegar, ginseng, and adaptogenic herbs, all known for their healing and revitalizing properties. 
+        The benefits of tonic health include improved digestion, enhanced immunity, increased energy levels, and better stress management. Regularly consuming health tonics can help balance 
+        the body's internal systems, promote detoxification, and provide a natural boost without relying on synthetic chemicals. When incorporated into a healthy lifestyle, tonics can be a simple yet 
+        powerful way to support long-term vitality and resilience.
+        Daily tonics to energize, heal, and restore your vitality.</p>
+        
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta">
+    <h2 style="text-align: center;">Get Free Access to Our Health Guide</h2>
+    <p>Sign up for exclusive health tips and resources from the HealthUniverse team.</p>
+    <a href="#categories" class="btn">Start Your Wellness Plan</a>
+  </section>
+
+  <!-- Footer -->
+  <footer style="text-align: center;">
+    <p>© 2025 HealthUniverse.website | Powered by 
+      <a href="Disclaimer.html" target="_blank">Disclaimer</a>
+      <a href="Terms and Conditions.html" target="_blank">Terms and Conditions</a>
+      <a href="Privacy-Policy" target="_blank">Privacy Policy</a>
+      <a href="GDPR.html" target="_blank">GDPR</a>
+      <a href="ContactUs.html" target="_blank">Contact</a> 
+      <a href="Sitemap.xml" target="_blank">Sitemap</a>
+        
+      </p>
+  </footer>
+
+
+
+
+<!-- Link Button Styled as Cookie Consent -->
+<a href="Healthuniverse.hshub.net.website-body" id="acceptCookies" style="display: inline-block; background-color: #2a7d4f; color: white; padding: 12px 15px; border-radius: 6px; text-decoration: none; font-weight: bold; font-family: Arial, sans-serif;">
+  We use cookies to improve your experience on our site. By using our website, you agree to our Terms of Service. Accept
+
+  <a href="Healthuniverse.hshub.net" id="denyCookies" style="display: inline-block; background-color: #2a7d4f; color: white; padding: 12px 15px; border-radius: 6px; text-decoration: none; font-weight: bold; font-family: Arial, sans-serif;">
+  We use cookies to improve your experience on our site. By using our website, you agree to our Terms of Service. Decline
+</a>
+
+
+ <style>
+cookie-popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e0f2e9;
+  border: 1px solid #b2d8c4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(31, 73, 71, 0.1);
+  max-width: 300px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.cookie-popup p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.cookie-popup a {
+  color: #007b5e;
+  text-decoration: underline;
+}
+
+.cookie-popup button {
+  background-color: #15b38e;
+  color: rgb(238, 243, 241);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cookie-popup button:hover {
+  background-color: #005f47;
+}</style>
+
+<script>
+  <script.js>
+  document.getElementById('acceptCookies').addEventListener('click', function() {
+    document.getElementById('cookiePopup').style.display = 'none';
+    localStorage.setItem('cookiesAccepted', 'true');
+  });
+
+  window.onload = function() {
+    if (!localStorage.getItem('cookiesAccepted')) {
+      document.getElementById('cookiePopup').style.display = 'block';
+    }
+  };
+</script>
+  </body>
+</html>
+</script.js>
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none';">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="google-site-verification" content="mpcpy_Le3wlhNJ_ZT7FwP3EBxqSdwQCy86bTMoKiOsA" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Container</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logos in One Line</title>
+  <style>
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* space between images */
+      margin-top: 40px;
+      flex-wrap: wrap; /* ensures all items stay on one line */
+      overflow-x: auto;  /* allows scroll if screen is too small */
+    }
+
+    .logo-horizontal-row a img {
+      width: 50px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+   
+  <div class="logo-row">
+   <a href="https://www.tee.hshub.net" target="_blank" rel="noopener noreferrer">
+     <img src="flx20250216120741-67b1d50d14f8d.png" alt="Serenity" width="55px" style="margin: 10 auto; display: text-align: "center";/>
+ 
+       </div> 
+   <a href="https://water.hshub.net" target="_blank" rel="noopener noreferrer">
+      <img src="drinking water.jpg" alt="DHGPro" alt="" width="55px" style="margin: 10 auto; display: text-align: "center";/>
+        
+  </div>
+    
+    <a href="https://ene.hshub.net" target="_blank" rel="noopener noreferrer">  
+    <img src="energeia-20250313-0357.png" alt="Energy" width="55px" width="55px" style="margin: 10 auto; display: text-align: "center";/>
+    
+      
+  </div>
+</body>
+</html>

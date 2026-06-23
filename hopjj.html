@@ -1,0 +1,1245 @@
+<script>
+  const expectedAffiliate = ["bluezy32", "rose2white", "devoraels7"];
+
+  window.onload = () => {
+    const url = window.location.href;
+    if (!expectedAffiliate.some(aff => url.includes(`affiliate=${aff}`))) {
+      alert("Warning: This link may not credit your ClickBank account.");
+    }
+  }
+</script>
+
+<?php
+// Block cookie stuffing and referrer fraud
+$allowed_domains = ['healthuniverse.hshub.net', 'trustedpartner.com'];
+
+$ref = $_SERVER['HTTP_REFERER'] ?? '';
+$cookie_source = $_COOKIE['bluezy32' 'rose2white' 'devoraels7'] ?? 'none';
+
+if (!empty($ref)) {
+    $ref_host = parse_url($ref, PHP_URL_HOST);
+    if (!in_array($ref_host, $allowed_domains)) {
+        // Log or block suspicious referrer
+        file_put_contents("suspicious.log", "Blocked referrer: $ref\n", FILE_APPEND);
+        header("Location: /error.html");
+        exit;
+    }
+}
+
+// Optional: Prevent affiliate cookie stuffing
+if ($cookie_source !== 'your_affiliate_id') {
+    setcookie('affiliate', 'your_affiliate_id', time() + 3600, '/', 'yourwebsite.com', true, true);
+}
+?>
+
+
+
+
+<?php
+// go.php?product=productname
+
+$affiliate_id = 'youraffiliateid'; // Replace with your ClickBank ID
+$products = [
+    'product1' => 'droughtusa',
+    'product2' => 'ronwill93',
+     'product3' => '1keto',
+    'product4' => 'aphrodscrt',
+      'product5' => 'ibandgr',
+    'product6' => 'ciderbrook'
+     'product7' => 'floaters',
+    'product8' => 'provadent',
+      'product9' => 'leanbiome',
+    'product10' => 'wellbake',
+     'product11' => 'teaburn',
+    'product12' => 'divinesupp'
+      'product13' => 'gluco6',
+    'product14' => 'peakshaver'
+     'product15' => 'ibtonic',
+    'product16' => '02bucky',
+      'product17' => 'mikegeary1',
+    'product18' => 'honeyburn',
+     'product19' => '324258',
+    'product20' => 'coolcease',
+      'product21' => 'geniusbr',
+    'product22' => 'fxlife',
+     'product23' => 'ibjuice',
+    'product24' => 'brbrowning',
+      'product25' => 'energ26',
+    'product26' => 'freedomprt',
+     'product27' => 'lostrec',
+    'product28' => 'livpure',
+      'product29' => 'sugardef',
+    'product30' => 'abdomax',
+     'product31' => 'easywriter',
+    'product32' => 'solarsafe'
+ 'product33' => 'barbros',
+    'product34' => 'cogmentis',
+     'product35' => 'wealthdna',
+    'product36' => 'pgrdvnip',
+      'product37' => 'moneywavx',
+    'product38' => 'exipure',
+     'product39' => 'ezpayjobs',
+    'product40' => 'lottery20k'
+     'product41' => 'matt1a',
+     'product42' => 'bpmiracle',
+     'product43' => 'mytolin',
+      'product44' => 'sumatonic',
+        'product45' => 'nervefresh',    
+         'product46' => 'recprofit',
+           'product47' => 'cerebromed',
+             'product48' => 'alphasupps',
+               'product49' => 'fmwebs',
+                'product49' => 'bloodsugar',
+     
+];
+
+if (!isset($_GET['product']) || !array_key_exists($_GET['product'], $products)) {
+    die("Invalid product.");
+}
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://fea3eaujgt6thx3kpoyohw1r4x.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://01674zmsgp-q4p8esja5ykhpet.hop.clickbank.net/?cbpage=40-Percent-Off-Yearly/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://f13d8kpojs7akjnb1hii4kw417.hop.clickbank.net.uk/?tid=GR9D48BY6E9/bluezy32/rose2white/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://fd5145ujqm3zbu2yslz6wj2mkc.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic&extclid=Tinyurl.com-245gkxpu/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://2948bnsoisy2qfs4pllzwmar95.hop.clickbank.net/?tid=G602LQM2ZQE/bluezy32/rose2white/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://658bdavqqs9r9p1ae30yod2k5p.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://2c86fautrwdual09uhxruc2wbo.hop.clickbank.net/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://daa0fyjjvgn9-niiqh0sz7exbz.hop.clickbank.net/?&extclid=G-5LR98KNFY0/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://hop.clickbank.net/?vendor=livpure&affiliate=bluezy32&lid=1&tid=G-GV0426PE8H/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://480a5n0pko-2jpuksl0qp7azex.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d9014evcrsz3jqq2v0u6zexhfg.hop.clickbank.net/?tid=GQ8DZ25YVT1/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://09342gxett8ejdu7ichmrl6r6p.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d7827gwjpsz2qsu-neav2864zf.hop.clickbank.net/?tid=G_CBZ4PYWLEK/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_1e4c3dsrupbfvdsopjegw-q94l.hop.clickbank.net/?tid=G_32SN8ZTD6X/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://178f4nqeks6fjllaqjv8r72wbw.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://weightlossdietplans.net/?shield=4670dqpnn057seinm3mg1o2w5y/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://d15649mkoq6-6s2rbrh2dt7tao.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://a41a8btusbkcngexu20j-8vcno.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://01674zmsgp-q4p8esja5ykhpet.hop.clickbank.net/?cbpage=40-Percent-Off-Yearly/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://22e6empjmu-1tdmc0bjftzlzeq.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://178f4nqeks6fjllaqjv8r72wbw.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://d5821aqtrpq8qej32aycmhiw3e.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://7ca4czklwdk1rr82slxbi8pz9d.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://4be9damjtxzzdp87w42gtnoo2o.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://5e514gxfo--1nnj5h009phdp0u.hop.clickbank.net/?tid=G_N3CJ3VTZ5S/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://a0cfa20iuv10eq33qzgbjk2jdm.hop.clickbank.net/?&extclid=G-1Y1K28SDRY/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://f13d8kpojs7akjnb1hii4kw417.hop.clickbank.net.uk/?tid=GR9D48BY6E9/bluezy32/rose2white/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://fd5145ujqm3zbu2yslz6wj2mkc.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic&extclid=Tinyurl.com-245gkxpu/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://a41a8btusbkcngexu20j-8vcno.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://fee0bh0lft57skl200qcs8tduu.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://2948bnsoisy2qfs4pllzwmar95.hop.clickbank.net/?tid=G602LQM2ZQE/bluezy32/rose2white/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://151b3cyhp08fjpm3sgow4wdndv.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://da6a32ki-fm1zlecjd8dqdbm27.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://658bdavqqs9r9p1ae30yod2k5p.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://www.67d63gsoluyevslvo3vafl5s1k.hop.clickbank.net/?cbpage=customplan&tid=G8Q388G9K2G/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://5a608qshsu1gkdnoqcumcl5nd7.hop.clickbank.net/?&extclid=https://5a608qshsu1gkdnoqcumcl5nd7.hop.clickbank.net/?&extclid=G-1Y1K28SDRY/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://0d1b9xsiknaohr0-n9zi2w4x0f.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d15649mkoq6-6s2rbrh2dt7tao.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://2c86fautrwdual09uhxruc2wbo.hop.clickbank.net/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://700d4ankpy3uekb5pm-ox92yfl.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://480a5n0pko-2jpuksl0qp7azex.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d9014evcrsz3jqq2v0u6zexhfg.hop.clickbank.net/?tid=GQ8DZ25YVT1/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://09342gxett8ejdu7ichmrl6r6p.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://b6f4a2uipj4t6q8ta5x1sl3wcw.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://d7827gwjpsz2qsu-neav2864zf.hop.clickbank.net/?tid=G_CBZ4PYWLEK/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://1e4c3dsrupbfvdsopjegw-q94l.hop.clickbank.net/?tid=G_32SN8ZTD6X/rose2white/bluezy32/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://0e3eflxfmt32ygldqbmduzv9db.hop.clickbank.net/?&extclid=G-F8V5KP5J3C/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://1cecdh2ou09ctngiwmvj462u91.hop.clickbank.net/?tid=G_MT13KN8BBZ/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://29d981uf3gk2yoe47jr2rpaw0z.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://308491titlavfkfdxegnij2qbr.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://9706a7osstcxhmcfwl33tdxr9s.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://2d4ae3puvmi-mdbcoqxalx0tff.hop.clickbank.net/?&extclid=G-5B2L2M9QR1/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://4be9damjtxzzdp87w42gtnoo2o.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://fd5145ujqm3zbu2yslz6wj2mkc.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic&extclid=Tinyurl.com-245gkxpu/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://48b451ofwopdolmcjvrlm637uo.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://be34daip0pn8mcb4ofnj6z-u81.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://fe29aq3eiu2frro7nbtkww-l6y.hop.clickbank.net/?&extclid=G-W6TNPDSRBZ/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://a9ce3zsqhy52dy6li6y6l9so4j.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://810f05wjtv319y1dtp0iiqak5p.hop.clickbank.net/?&extclid=G-H504X2Y5H3/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://4be9damjtxzzdp87w42gtnoo2o.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_http://fd5145ujqm3zbu2yslz6wj2mkc.hop.clickbank.net/?&traffic_source=pinterest&traffic_type=organic&extclid=Tinyurl.com-245gkxpu/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://be34daip0pn8mcb4ofnj6z-u81.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://fe29aq3eiu2frro7nbtkww-l6y.hop.clickbank.net/?&extclid=G-W6TNPDSRBZ/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://a9ce3zsqhy52dy6li6y6l9so4j.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://810f05wjtv319y1dtp0iiqak5p.hop.clickbank.net/?&extclid=G-H504X2Y5H3/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://775da8tkykm9-j82ppkdwaavfx.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://904c73rnlm2sbu5lmcsek8smfv.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://e4c414wfsn7oit84toka5g5qy5.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://652494tenk4q4m6anmhcis9s33.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://f57157ogqkcwak2hkjwlj1cm0w.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://20613arm3qnzme8pet9-ip4x6z.hop.clickbank.net//";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://b7d46yjl1hiduliloaheh8tx9q.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://b9e224npgp505q7fyapsciub0o.hop.clickbank.net/?&extclid=G-NMPBDG0TMW/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://dffacltkjt35kjhp0dldkblr79.hop.clickbank.net/?&extclid=G-F8V5KP5J3C/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://248229nlqmzpfmcaudfjhg1kck.hop.clickbank.net/?&extclid=G-NMPBDG0TMW/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://ca3dby-qgy5z3sbp3fcjsgy784.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://hop.clickbank.net/?affiliate=bluezy32&vendor=gluco6&pid=vsl&tid=G-LGELBTZJX3/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://getglucotrust.com?shield=dee7a0ttgxbphve1sqem1q-m7o/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://01674zmsgp-q4p8esja5ykhpet.hop.clickbank.net/?cbpage=40-Percent-Off-Yearly/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_https://d5821aqtrpq8qej32aycmhiw3e.hop.clickbank.net/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+$vendor = $products[$_GET['product']];
+$url = "https://$vendor.$affiliate_/";
+
+header("Location: $url");
+exit();
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  const link = atob("aHR0cHM6Ly93d3cuY2xpY2tiYW5rLm5ldC9yZWRpcmVjdD9odHRwczovL2V4YW1wbGUuY29tL2FmZmlsaWF0ZT1ibHVlenkzMg==");
+  function goToClickBank() {
+    window.location.href = link;
+  }
+</script>
+
+<button onclick="goToClickBank()">Buy Now</button>

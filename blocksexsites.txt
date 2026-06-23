@@ -1,0 +1,14 @@
+Python
+
+<script.py></script.py>
+# Python script to block specific sites using Windows Firewall
+blocked_sites = [
+    "sexsite.com",
+    "www.sexsite.com",
+    "xxxsite.com",
+    "www.xxxsite.com"
+]
+
+# Windows Firewall command (example format)
+for site in blocked_sites:
+    os.system(f'netsh advfirewall firewall add rule name=\"Block {site}\" dir=out action=block remoteip={site}')</script.py>

@@ -1,0 +1,5 @@
+<?php
+// go/herb-detox.php
+header("Location: https://hop.clickbank.net/?affiliate=yourid&vendor=vendorname");
+exit;
+?>

@@ -1,0 +1,83 @@
+<!-- Consent Banner HTML -->
+<div id="consent-banner" style="display: none;">
+  <div class="consent-container">
+    <p>
+      We use cookies to enhance your experience, analyze site usage, and assist in our marketing efforts. 
+      By clicking "Accept", you agree to our 
+      <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and 
+      <a href="cookie-policy.html" target="_blank">Cookie Policy</a>.
+    </p>
+    <div class="consent-buttons">
+      <button onclick="acceptConsent()">Accept</button>
+      <button onclick="declineConsent()">Decline</button>
+    </div>
+  </div>
+</div>
+
+<!-- Consent Banner CSS -->
+<style>
+  #consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e9fce9;
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .consent-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    color: #333;
+  }
+
+  .consent-container a {
+    color: #007b5e;
+    text-decoration: underline;
+  }
+
+  .consent-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .consent-buttons button {
+    background-color: #2a7d4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .consent-buttons button:hover {
+    background-color: #256e45;
+  }
+</style>
+
+<!-- Consent Banner JavaScript -->
+<script>
+  function acceptConsent() {
+    localStorage.setItem('consentGiven', 'true');
+    document.getElementById('consent-banner').style.display = 'none';
+  }
+
+  function declineConsent() {
+    localStorage.setItem('consentGiven', 'false');
+    document.getElementById('consent-banner').style.display = 'none';
+  }
+
+  window.onload = function () {
+    if (localStorage.getItem('consentGiven') === null) {
+      document.getElementById('consent-banner').style.display = 'block';
+    }
+  };
+</script>

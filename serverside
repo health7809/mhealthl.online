@@ -1,0 +1,9 @@
+import socket
+
+allowed_ip = "192.168.0.216"  # your real payment server IP
+resolved_ip = socket.gethostbyname("yourdomain.com")
+
+if resolved_ip != allowed_ip:
+    raise SystemExit("DNS tampering detected! Payment halted.")
+else:
+    print("Domain integrity verified. Proceeding with transaction.")

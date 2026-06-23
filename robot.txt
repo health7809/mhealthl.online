@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow image directories (optional if images are under /)
+Allow: /images/Muscle_Health_Visualization.jpg
+        images/flx20250216120002-67b1d3423679_2.png
+        images/person_with_healthy_liver.jpg
+        images/superfoods1.jpg
+        images/healthuniverse.png
+        images/healthuniverse.jpg
+
+Sitemap: https://healthuniverse.hshub.net/sitemap.xml
+
+User-agent: *
+Allow: /
+Sitemap: https://healthuniverse.hshub.net/sitemap.xml
